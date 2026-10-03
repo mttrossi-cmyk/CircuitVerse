@@ -1,0 +1,16 @@
+# Artefatti di build: si rigenerano con standalone\build.ps1
+dist/
+*.zip
+
+# Binario di terze parti (~50 MB): non va nel repository.
+# Si scarica con:
+#   https://github.com/caddyserver/caddy/releases
+#   ed estrarre caddy.exe in standalone/vendor/
+vendor/
+
+# Runtime: generati dal launcher
+Caddyfile
+caddy.pid
+caddy.port
+caddy.log
+caddy-error.log
