@@ -22,7 +22,7 @@ COSA FUNZIONA
   memorie, flip-flop, display, tastiera, ecc.)
 - Simulazione in tempo reale con diagramma temporale
 - Testbench: crea test, lancia tutti i casi, esporta in CSV
-- Analisi combinazionale (tabella di verita)
+- Analisi combinazionale (tabella di verità)
 - Esporta il circuito in codice Verilog (.v)
 - Importa Verilog e genera il circuito corrispondente
   (sintesi eseguita dentro il browser, nessun server)
@@ -46,7 +46,7 @@ Windows. Se due persone usano lo stesso PC con profili diversi, non vedono
 gli stessi circuiti salvati in locale. I file .cv, invece, sono portabili.
 
 
-COSA NON FUNZIONA (e non puo' funzionare)
+COSA NON FUNZIONA (e non può funzionare)
 -----------------------------------------
 Questa versione non ha un server, quindi niente:
 - account, registrazione, profili utente
@@ -55,7 +55,7 @@ Questa versione non ha un server, quindi niente:
 - segnalazione dei problemi e assistenza online
 
 I collegamenti esterni (manuale utente, forum, EDA Playground, documentazione)
-richiedono internet: aperti, non funzioneranno. Il resto e' completo.
+richiedono internet: aperti, non funzioneranno. Il resto è completo.
 
 
 REQUISITI
@@ -66,7 +66,7 @@ REQUISITI
 
 DOMANDE
 -------
-Pro assistenza contatta il tuo referente informatico.
+Per assistenza contatta il tuo referente informatico.
 Per il progetto originale: https://circuitverse.org
 
-CircuitVerse e' distribuito con licenza MIT.
+CircuitVerse è distribuito con licenza MIT.
