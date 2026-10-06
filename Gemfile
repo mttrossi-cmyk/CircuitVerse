@@ -161,7 +161,7 @@ group :development do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
+gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby windows]
 
 # mails
 gem "premailer-rails", "~> 1.11", ">= 1.11.1"
@@ -205,7 +205,7 @@ gem "opentelemetry-instrumentation-action_view"
 gem "maintenance_tasks", "~> 2.17"
 
 
-gem "stackprof"
+gem "stackprof", platforms: :ruby
 gem "sentry-ruby"
 gem "sentry-rails"
 gem "sentry-sidekiq", "~> 5.17"
