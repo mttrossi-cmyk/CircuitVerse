@@ -74,6 +74,25 @@ dal flag `VITE_STANDALONE=1`, così il comportamento con il backend Rails resta
 identico quando il flag non è impostato. Il file chiave è
 `cv-frontend-vue/src/standalone.ts`.
 
+Le modifiche vivono nel branch **`standalone`** del fork
+`mttrossi-cmyk/cv-frontend-vue`, non nell'upstream: `.gitmodules` usa la url
+relativa `../cv-frontend-vue.git` con `branch = standalone`.
+
+Ordine obbligatorio quando si tocca il frontend: **prima** il push del branch,
+**poi** il gitlink.
+
+```powershell
+git -C cv-frontend-vue push origin standalone
+git add cv-frontend-vue
+git commit -m "build(deps): bump cv-frontend-vue"
+git push
+```
+
+Un gitlink che punta a un commit mai pushato rende il repository
+**inclonabile** per chiunque: `git clone --recurse-submodules` si blocca con
+`upload-pack: not our ref` e `a submodule points to a commit which does not
+exist`.
+
 Cosa fa il flag:
 
 | Area | Comportamento offline |
