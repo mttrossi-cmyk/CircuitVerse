@@ -1,4 +1,4 @@
 [submodule "cv-frontend-vue"]
 	path = cv-frontend-vue
-	url = https://github.com/CircuitVerse/cv-frontend-vue.git
-	branch = main
+	url = ../cv-frontend-vue.git
+	branch = standalone
